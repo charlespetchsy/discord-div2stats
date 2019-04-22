@@ -22,7 +22,7 @@
     ...
     bot.run('<your_OAuth2_token_here>')
     ```
-4) Have fun and feel free to modifying the code to your desire!
+4) Have fun and feel free to modify the code to your desire!
 
 ## Basic Usage:
 Retrieve general player stats: <br>
