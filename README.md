@@ -4,7 +4,27 @@
 
 ---
 
-### Basic Usage:
+## Requirements
+- Python version: [`v3.7.x`](https://www.python.org/downloads/release/python-373/)
+
+## Running on your local machine (CLI)
+**Assumption**: Discord bot has OAuth2 already setup and Git is installed.
+1) Clone the GitHub Repo
+    ```
+    git clone https://github.com/charlespetchsy/discord-div2stats.git ; cd discord-div2stats/ 
+    ```
+2) Install dependencies
+    ```
+    pip3 install -r requirements.txt
+    ```
+3) Copy and paste your OAuth2 token in the last line of `main.py`
+    ```
+    ...
+    bot.run('<your_OAuth2_token_here>')
+    ```
+4) Have fun and feel free to modifying the code to your desire!
+
+## Basic Usage:
 Retrieve general player stats: <br>
 **Note**: Player name is character case agnostic.
 ```
@@ -53,7 +73,7 @@ Ping Test with `!shd ping`:
 pong (0 ms)
 ```
 
-### Command List:
+## Command List:
 Help Command with `!shd help`:
 ```
 Get player stats: !shd <player_name>
