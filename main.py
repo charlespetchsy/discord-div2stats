@@ -95,17 +95,17 @@ class Lifetime(HTMLParser):
             # get sharpshooter kills
             sharpshooter_kills = str(player_data['stats']['standardPlayers'][root_key]['stats']['killsSpecializationSharpshooter']['displayValue'])
             sharpshooter_rank = str(player_data['stats']['standardPlayers'][root_key]['stats']['killsSpecializationSharpshooter']['displayPercentile'])
-            output += "Sharpshooter (Specialization) Kills: " + sharpshooter_kills + " " + " [ " + sharpshooter_rank + " ]"  + "\n"
+            output += "Sharpshooter (Spec) Kills: " + sharpshooter_kills + " " + " [ " + sharpshooter_rank + " ]"  + "\n"
 
             # get sharpshooter kills 
             survivalist_kills = str(player_data['stats']['standardPlayers'][root_key]['stats']['killsSpecializationSurvivalist']['displayValue'])
             survivalist_rank = str(player_data['stats']['standardPlayers'][root_key]['stats']['killsSpecializationSurvivalist']['displayPercentile'])
-            output += "Survivalist (Specialization) Kills: " + survivalist_kills + " " + " [ " + survivalist_rank + " ]"  + "\n"
+            output += "Survivalist (Spec) Kills: " + survivalist_kills + " " + " [ " + survivalist_rank + " ]"  + "\n"
 
             # get sharpshooter kills 
             demolitionist_kills = str(player_data['stats']['standardPlayers'][root_key]['stats']['killsSpecializationDemolitionist']['displayValue'])
             demolitionist_rank = str(player_data['stats']['standardPlayers'][root_key]['stats']['killsSpecializationDemolitionist']['displayPercentile'])
-            output += "Demolitionist (Specialization) Kills: " + demolitionist_kills + " " + " [ " + demolitionist_rank + " ]" + "\n\n"
+            output += "Demolitionist (Spec) Kills: " + demolitionist_kills + " " + " [ " + demolitionist_rank + " ]" + "\n\n"
 
             # get PVE stats
             output += "PvE Stats"
