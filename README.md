@@ -46,9 +46,9 @@ Headshots: 20,207  [ Top 23% ]
 Items Looted: 2,356  [ Top 28% ]
 E-Credit Balance: 473,516  [ Top 5% ]
 Commendations: 51  [ Top 27% ]
-Sharpshooter (Specialization) Kills: 3,307  [ Top 14% ]
-Survivalist (Specialization) Kills: 0  [ None ]
-Demolitionist (Specialization) Kills: 0  [ None ]
+Sharpshooter (Spec) Kills: 3,307  [ Top 14% ]
+Survivalist (Spec) Kills: 0  [ None ]
+Demolitionist (Spec) Kills: 0  [ None ]
 
 PvE Stats
 ---------------------------------------------------------
